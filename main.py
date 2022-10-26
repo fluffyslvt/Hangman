@@ -31,7 +31,7 @@ while(True):
     guess = input('')
 
     if(guess not in wordFinal):
-        print('Źle')
+        print('Błędny wyraz')
         lives -= 1
     else:
         for i in range(len(wordFinal)):
